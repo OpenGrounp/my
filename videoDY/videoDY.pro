@@ -38,8 +38,7 @@ RESOURCES += #    resources.qrc # uncomment for publishing
 
 
 # The .cpp file which was generated for your project. Feel free to hack it.
-SOURCES += main.cpp \
-    JsonData.cpp
+SOURCES += main.cpp
 
 
 android {
@@ -68,10 +67,4 @@ DISTFILES += \
     qml/mainiten/AttentionPage.qml \
     qml/mainiten/MessagePage.qml \
     qml/comment/CommentModel.qml \
-    qml/comment/CommentPage.qml \
-    dydata.json \
-    qml/favorites/FavoriteModel.qml \
-    qml/favorites/FavoritePage.qml
-
-HEADERS += \
-    JsonData.h
+    qml/comment/CommentPage.qml
