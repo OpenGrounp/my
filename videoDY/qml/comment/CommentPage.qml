@@ -1,7 +1,13 @@
 import QtQuick 2.4
 import Felgo 3.0
-
 ListPage {
+    id:comment_page
+    MouseArea{
+        anchors.fill:parent
+        onDoubleClicked: {
+            comment1.visible=false
+        }
+    }
 
     CommentModel{//初始化一个model
         id:model1
@@ -61,7 +67,7 @@ ListPage {
                 name:"Tom McEloy",
                 contentMessage: inputBox.text,
 
-                iconpath:"../assets/felgo-logo.png"}
+                iconpath:"../images/user1.png"}
             //console.log(inputBox.text)
             if(inputBox.text=="")
             {}else{

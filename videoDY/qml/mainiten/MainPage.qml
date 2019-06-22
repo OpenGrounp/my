@@ -1,7 +1,6 @@
 import QtQuick 2.4
 import QtQuick.Controls 1.2
 import Felgo 3.0
-
 ListPage {
     id: mainPage
 
@@ -18,9 +17,11 @@ ListPage {
             title:"首页"
             icon:IconType.home
             NavigationStack {
+
                 Page{
                     navigationBarHidden:true//用于隐藏头部
-                    HomesPage {}
+                    HomesPage{
+                    }
                 }
             }
         }
