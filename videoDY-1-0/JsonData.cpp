@@ -10,7 +10,7 @@ JsonData::JsonData(QObject *parent) : QObject (parent){
 bool JsonData::loadJson()
 {
 
-    QFile loadFile(QStringLiteral("../videoDY/dydata.json"));//(QStringLiteral("./dydata.json"));
+    QFile loadFile(QStringLiteral("../videoDY-1-0/dydata.json")); //"/run/media/root/data/projects/videoDY/dydata.json"));//(QStringLiteral("./dydata.json"));
 
     if (!loadFile.open(QIODevice::ReadOnly)) {
         qWarning("Couldn't open save file.");

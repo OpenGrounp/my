@@ -18,14 +18,10 @@ ListPage{
 
     property var main : []
     property var like : []
-    property int j : 0
 
     function changeIsLike()
     {
-        for(var k = 0; k < j; ++k){
-            like.reduce()
-        }
-
+        var j = 0;
         for(var i = 0; i < jsonmodel.count; i++){
             main[i] = jsonmodel.get(i)
             if(main[i].isLike === true){

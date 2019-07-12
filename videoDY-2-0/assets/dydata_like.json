@@ -1,28 +1,10 @@
 {
     "video": [
         {
-            "heart_num": 10,
+            "heartNum": 10,
             "id": 1,
-            "image_source": "../../assets/images/picture/01.png",
             "isLike": true,
-            "talk_num": 6,
             "video_source": "../../assets/video/01.mp4"
-        },
-        {
-            "heart_num": 17,
-            "id": 3,
-            "image_source": "../../assets/images/picture/03.png",
-            "isLike": true,
-            "talk_num": 9,
-            "video_source": "../../assets/video/03.mp4"
-        },
-        {
-            "heart_num": 79,
-            "id": 5,
-            "image_source": "../../assets/images/picture/05.png",
-            "isLike": true,
-            "talk_num": 60,
-            "video_source": "../../assets/video/05.mp4"
         }
     ]
 }

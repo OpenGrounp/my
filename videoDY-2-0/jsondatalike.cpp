@@ -9,7 +9,6 @@ JsonDataLike::JsonDataLike(QObject *parent) : QObject (parent){
 
 bool JsonDataLike::loadJson()
 {
-
     QFile loadFile(QStringLiteral("../videoDY-2-0/assets/dydata_like.json"));//(QStringLiteral("./dydata.json"));
 
     if (!loadFile.open(QIODevice::ReadOnly)) {
